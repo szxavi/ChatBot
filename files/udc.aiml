@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+	<pattern>ciao</pattern>
+	<template>ciao sono GIO il tuo chatbot</template>
+</category>
+<category>
+	<pattern>ciao mi chiamo * </pattern>
+	<template>ciao <star /> </template>
+</category>
+<category>
+	<pattern>cosa sai fare</pattern>
+	<template>scegli tu possiamo parlare di macchine</template>
+	</category>
+  <category>
+    <pattern>*</pattern>
+    <template>Non ho risposte per questo.</template>
+  </category>
+</aiml>
