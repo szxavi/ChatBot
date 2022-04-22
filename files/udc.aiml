@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
     <category>
-	<pattern>ciao</pattern>
-	<template>ciao sono Anna il tuo chatbot, come posso eserti d'aiuto?</template>
+	<pattern>Ciao</pattern>
+	<template>Ciao sono Anna il tuo chatbot, per esserti d'aiuto chiedimi la disponibilità di un prodotto</template>
 </category>
 
 <category>
-	<pattern>ciao mi chiamo * </pattern>
-	<template>ciao <star />, sono Anna il tuo chatbot </template>
+	<pattern>Ciao mi chiamo * </pattern>
+	<template>Ciao <star />, sono Anna il tuo chatbot, per esserti d'aiuto chiedimi la disponibilità di un prodotto </template>
 </category>
 
 <category>
-	<pattern>ciao sono * </pattern>
-	<template>ciao <star />, sono Anna il tuo chatbot </template>
+	<pattern>Ciao sono * </pattern>
+	<template>ciao <star />, sono Anna il tuo chatbot, per esserti d'aiuto chiedimi la disponibilità di un prodotto </template>
+</category>
+
+<category>
+	<pattern>* articolo *</pattern>
+	<template><star />, è disponibile in magazzino, vuoi ritirare in negozio? </template>
+</category>
+
+<category>
+	<pattern>* disponibile *</pattern>
+	<template><star />, è disponibile in magazzino, vuoi ritirare in negozio? </template>
+</category>
+
+<category>
+	<pattern>si *</pattern>
+	<template>Articolo prenotato, riceverà una chiamata di conferma dal negozio, scriva il suo numero</template>
+</category>
+
+<category>
+	<pattern>si</pattern>
+	<template>Articolo prenotato, riceverà una chiamata di conferma dal negozio, scriva il suo numero</template>
+</category>
+
+<category>
+	<pattern>no *</pattern>
+	<template>Vabene, se hai altri dubbi puoi ri-richiedere la disponibilità di un articolo</template>
+</category>
+
+<category>
+	<pattern>no</pattern>
+	<template>Vabene, se hai altri dubbi puoi ri-richiedere la disponibilità di un articolo </template>
 </category>
 
 <category>
@@ -48,7 +78,7 @@
 	
 <category>
     <pattern>*</pattern>
-    <template>Non ho risposte per questo.</template>
+    <template>Attendere, a breve riceverà una chiamata</template>
 </category>
  
 </aiml>
